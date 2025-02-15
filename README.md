@@ -1,2 +1,2 @@
 # structured-products
-assignment within the Financial Engineering course
+In this project we were given a certificate containing the euribor 3 months and capped coupons with its relative termsheet our aim is to compute the proper upfront. We first bootstrap the market discounts, then since we are provided with market flat volatility we bootstrap the spot ones passing through the Cap market prices adopting the Normal Libor Market model. Finally we also compute the delta and vega bucket sensitivities of the certificate and hedge each coarse bucket through the swaps and ATM caps with different maturities available in the market.
